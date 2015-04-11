@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.container {
+    height: 100%;
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+
+.content {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.row {
+    text-align: center;
+}
+
+.horizontal-padding {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    fill: #FFF;
+    transition: fill 0.4s ease;
+}
+
+.logo:hover {
+    fill: #FF413C;
+}
